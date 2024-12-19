@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  background: linear-gradient(to bottom, black, black, rgba(0, 0, 0, 0));
+}
+
+.logo {
+  height: 100px;
+  padding: 10px;
+  filter: invert();
+}
+
+.logo img {
+  height: 100%;
+}
+
+.navlist {
+  display: flex;
+  gap: 30px;
+  padding-inline-end: 30px;
+}
+
+.navlinks {
+  font-size: 25px;
+}
+
+.navlinks a {
+  color: #fff;
+}

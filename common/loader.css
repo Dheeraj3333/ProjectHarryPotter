@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.loader {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.load {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-top-color: white;
+  /* box-shadow: 0 0 10px #00000025; */
+  animation: load 1s ease infinite;
+}
+
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}
